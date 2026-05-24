@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meok-eu-aia-art-9-rms-mcp"
+version = "1.0.0"
+description = "MEOK EU AI Act Article 9 Risk Management System generator — 4-step iteration (identify / estimate / post-market / mitigate). 12 risk categories. Signed RMS for the Annex IV technical documentation bundle. By MEOK AI Labs."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Nicholas Templeman", email = "nicholas@meok.ai" }]
+keywords = ["mcp", "eu-ai-act", "article-9", "risk-management", "rms", "annex-iv", "meok"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+]
+dependencies = ["mcp[cli]>=1.3.0"]
+
+[project.urls]
+Homepage = "https://meok.ai/governance"
+Repository = "https://github.com/CSOAI-ORG/meok-eu-aia-art-9-rms-mcp"
+
+[project.scripts]
+meok-eu-aia-art-9-rms-mcp = "server:main"
+
+[tool.setuptools]
+py-modules = ["server"]
