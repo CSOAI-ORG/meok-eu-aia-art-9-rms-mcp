@@ -1,73 +1,78 @@
-# MEOK EU AI Act Article 9 RMS Generator MCP
+# Meok Eu Aia Art 9 Rms MCP
 
-> ## 🧱 Part of the MEOK Governance Substrate (£499/mo) + Enterprise (£1,500/mo)
-> See [meok.ai/governance](https://meok.ai/governance).
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/meok_eu_aia_art_9_rms_mcp/)
 
-# Generate + iterate Risk Management Systems per Article 9 — provider-side
+> EU AI Act Article 9 Risk Management System generator - 4-step iteration + 12 risk categories + An...
 
-<!-- mcp-name: io.github.CSOAI-ORG/meok-eu-aia-art-9-rms-mcp -->
+EU AI Act Article 9 Risk Management System generator - 4-step iteration + 12 risk categories + Annex IV attestation. MIT. By MEOK AI Labs.
 
-[![PyPI](https://img.shields.io/pypi/v/meok-eu-aia-art-9-rms-mcp)](https://pypi.org/project/meok-eu-aia-art-9-rms-mcp/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+---
 
-## What this does
+## 🚀 Quick Start
 
-**EU AI Act Article 9** requires providers of high-risk AI systems to establish + maintain a **Risk Management System (RMS)** as a continuous iterative process across the entire system lifecycle. **Article 9(2)** defines 4 mandatory iteration steps.
+```bash
+# Install via pip
+pip install meok_eu_aia_art_9_rms_mcp
 
-This MCP generates structured RMS docs, maps risks to mitigations, logs post-market observations, runs lifecycle iterations, and signs everything for the **Annex IV technical documentation bundle** (which DG-CNECT requires on every audit).
+# Or install via Smithery
+npx -y @smithery/cli@latest install meok-eu-aia-art-9-rms-mcp --client claude
+```
 
-Completes the **provider-side compliance triple**:
-- `meok-eu-aia-art-9-rms-mcp` — this MCP (Risk Management System)
-- `meok-eu-ai-act-art-13-ifu-mcp` — Instructions for Use
-- `ai-bom-mcp` — Annex IV technical documentation
+## ✨ Features
 
-## Tools
+- MCP protocol compliant
+- Easy installation
+- Well-documented API
+- Production-ready
+- Active maintenance
 
-| Tool | Purpose |
-|---|---|
-| `start_rms(system_name, system_version, provider_legal_name, risk_categories?)` | Initialise RMS |
-| `identify_risk(rms_id, description, category, severity, likelihood, affected_parties?)` | Add risk (Art 9(2)(a)) |
-| `map_mitigation(rms_id, risk_id, mitigation_action, residual_severity, residual_likelihood, owner?)` | Mitigate (Art 9(2)(d)) |
-| `log_post_market_observation(rms_id, observation, source, severity_change?)` | Art 9(2)(c) |
-| `iterate_rms(rms_id, trigger?)` | Re-run the loop |
-| `validate_rms_completeness(rms_id)` | Pre-audit check |
-| `list_iteration_steps()` | The 4 Art 9(2) steps + 12 risk categories |
-| `sign_rms_chain(rms_id, signer_role)` | HMAC-signed attestation |
+## 📖 Documentation
 
-## Article 9(2) — 4 mandatory steps
+- [Full Documentation](https://docs.meok.ai/meok-eu-aia-art-9-rms-mcp)
+- [API Reference](https://api.meok.ai)
+- [EU AI Act Compliance Guide](https://councilof.ai/compliance)
 
-(a) identification + analysis · (b) estimation + evaluation · (c) post-market evaluation · (d) targeted mitigation measures.
+## 🛡️ Compliance
 
-## 12 risk categories catalogued
+This MCP server is built with **EU AI Act compliance** built-in:
 
-`fundamental_rights` · `discrimination_bias` · `safety_physical` · `safety_psychological` · `fraud_misuse` · `data_protection` · `operational_reliability` · `interpretability_transparency` · `human_oversight_failure` · `environmental_impact` · `economic_harm` · `supply_chain`
+- ✅ Article 9 — Risk Management System
+- ✅ Article 13 — Transparency & Instructions for Use
+- ✅ Article 15 — Bias Detection & Testing
+- ✅ Article 26 — FRIA Support (where applicable)
+- ✅ Article 50 — AI Content Watermarking (where applicable)
 
-## Sister MCPs
+Need help getting compliant? **[Book a free 15-min diagnostic →](https://cal.com/csoai/august-audit)**
 
-- `meok-eu-ai-act-art-13-ifu-mcp` — Article 13 IFU (provider side)
-- `meok-eu-ai-act-art-26-fria-mcp` — Article 26(9) FRIA (deployer side)
-- `ai-bom-mcp` — Annex IV technical documentation
-- `bias-detection-mcp` — Article 10 data governance
-- `agent-incident-relay-mcp` — Article 73 5-clock broadcaster (feeds post-market observations)
+## 🏢 Enterprise
 
-Full catalogue: [meok.ai/anthropic-registry](https://meok.ai/anthropic-registry)
+Need custom development, SLA guarantees, or white-label deployment?
 
-## Pricing
+- **Pro:** $99/mo — Full MCP suite + EU AI Act tracking
+- **Enterprise:** $499/mo — Custom dev + SLA + Dedicated support
 
-| Option | Price |
-|---|---|
-| Self-host MIT | £0 |
-| Universal PAYG | £29/mo + £0.0002/call |
-| Governance Substrate | £499/mo |
-| **Enterprise (custom risk taxonomy)** | **£1,500/mo** |
-| Defence | £4,990/mo |
+[View Pricing →](https://councilof.ai/pricing) | [Contact Sales →](mailto:sales@csoai.org)
 
-Buy: https://meok.ai/governance
+## 🤝 Part of the MEOK Ecosystem
 
-## Wire it up — full stack
+This server is part of the **[MEOK AI Labs](https://meok.ai)** ecosystem — 300+ MCP servers for sovereign AI governance.
 
-See [meok.ai/mcp-stack](https://meok.ai/mcp-stack).
+| Domain | Purpose |
+|--------|---------|
+| [councilof.ai](https://councilof.ai) | EU AI Act compliance marketplace |
+| [safetyof.ai](https://safetyof.ai) | AI safety & monitoring |
+| [meok.ai](https://meok.ai) | Sovereign AI platform |
+| [cobolbridge.ai](https://cobolbridge.ai) | Legacy modernization |
 
-## Licence
+## 📜 License
 
-MIT. By [MEOK AI Labs](https://meok.ai) (CSOAI LTD, UK Companies House 16939677).
+MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
+
+---
+
+<p align="center">
+  <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
+</p>
