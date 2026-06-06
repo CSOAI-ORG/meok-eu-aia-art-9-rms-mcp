@@ -1,0 +1,24 @@
+# meok-eu-aia-art-9-rms-mcp
+
+> MEOK EU AI Act Article 9 Risk Management System generator — 4-step iteration (identify / estimate / post-market / mitigate). 12 risk categories. Signed RMS for the Annex IV technical documentation bundle. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- start_rms
+- identify_risk
+- map_mitigation
+- log_post_market_observation
+- iterate_rms
+- validate_rms_completeness
+- list_iteration_steps
+- sign_rms_chain
+
+## Install
+```
+pip install meok-eu-aia-art-9-rms-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-eu-aia-art-9-rms-mcp/
+- Docs: https://meok.ai

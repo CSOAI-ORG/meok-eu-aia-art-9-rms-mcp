@@ -1,0 +1,37 @@
+{
+  "name": "meok-eu-aia-art-9-rms-mcp",
+  "title": "Meok Eu Aia Art 9 Rms Mcp",
+  "description": "MEOK EU AI Act Article 9 Risk Management System generator \u2014 4-step iteration (identify / estimate / post-market / mitigate). 12 risk categories. Signed RMS for the Annex IV technical documentation bundle. By MEOK AI Labs.",
+  "version": "1.0.1",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "start_rms"
+    },
+    {
+      "name": "identify_risk"
+    },
+    {
+      "name": "map_mitigation"
+    },
+    {
+      "name": "log_post_market_observation"
+    },
+    {
+      "name": "iterate_rms"
+    },
+    {
+      "name": "validate_rms_completeness"
+    },
+    {
+      "name": "list_iteration_steps"
+    },
+    {
+      "name": "sign_rms_chain"
+    }
+  ]
+}

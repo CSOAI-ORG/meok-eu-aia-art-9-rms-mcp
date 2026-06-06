@@ -1,0 +1,19 @@
+name: meok-eu-aia-art-9-rms-mcp
+description: "> ## 🧱 Part of the MEOK Governance Substrate (£499/mo) + Enterprise (£1,500/mo)"
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://meok.ai
+repository: https://github.com/MEOK-AI-Labs/meok-eu-aia-art-9-rms-mcp
+license: MIT
+categories:
+  - compliance
+  - ai
+  - governance
+
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+    - fastapi
+    - uvicorn
+    - mcp

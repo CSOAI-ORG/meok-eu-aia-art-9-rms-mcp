@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meok-eu-aia-art-9-rms-mcp"
-version = "1.0.0"
+version = "1.0.1"
 description = "MEOK EU AI Act Article 9 Risk Management System generator — 4-step iteration (identify / estimate / post-market / mitigate). 12 risk categories. Signed RMS for the Annex IV technical documentation bundle. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }
