@@ -1,4 +1,20 @@
-[![MCP Scorecard: 90/100](https://img.shields.io/badge/proofof.ai-90%2F100-5b21b6)](https://proofof.ai/scorecard/meok-eu-aia-art-9-rms-mcp.html)
+Metadata-Version: 2.4
+Name: meok-eu-aia-art-9-rms-mcp
+Version: 1.0.1
+Summary: MEOK EU AI Act Article 9 Risk Management System generator — 4-step iteration (identify / estimate / post-market / mitigate). 12 risk categories. Signed RMS for the Annex IV technical documentation bundle. By MEOK AI Labs.
+Author-email: Nicholas Templeman <nicholas@meok.ai>
+License: MIT
+Project-URL: Homepage, https://meok.ai/governance
+Project-URL: Repository, https://github.com/CSOAI-ORG/meok-eu-aia-art-9-rms-mcp
+Keywords: mcp,eu-ai-act,article-9,risk-management,rms,annex-iv,meok
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mcp[cli]>=1.3.0
+Dynamic: license-file
 
 # Meok Eu Aia Art 9 Rms MCP
 mcp-name: io.github.CSOAI-ORG/meok-eu-aia-art-9-rms-mcp

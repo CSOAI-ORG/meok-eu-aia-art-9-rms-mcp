@@ -2,8 +2,26 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CSOAI-ORG/meok-eu-aia-art-9-rms-mcp",
   "version": "1.0.0",
-  "description": "MEOK EU AI Act Article 9 Risk Management System generator — 4-step iteration (identify / estimate / post-market / mitigate). 12 risk categories. Signed RMS for the Annex IV technical documentation bundle. By MEOK AI Labs.",
-  "repository": { "url": "https://github.com/CSOAI-ORG/meok-eu-aia-art-9-rms-mcp", "source": "github" },
-  "packages": [{ "registryType": "pypi", "identifier": "meok-eu-aia-art-9-rms-mcp", "version": "1.0.0", "runtimeHint": "python", "transport": { "type": "stdio" } }],
-  "remotes": [{ "type": "streamable-http", "url": "https://api.meok.ai/v1/governance/eu-aia-art-9-rms" }]
+  "description": "MEOK EU AI Act Article 9 Risk Management System generator \u2014 4-step iteration (identify / estimate /",
+  "repository": {
+    "url": "https://github.com/CSOAI-ORG/meok-eu-aia-art-9-rms-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "meok-eu-aia-art-9-rms-mcp",
+      "version": "1.0.0",
+      "runtimeHint": "python",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.meok.ai/v1/governance/eu-aia-art-9-rms"
+    }
+  ]
 }
