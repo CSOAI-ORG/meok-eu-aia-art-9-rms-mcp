@@ -1,0 +1,95 @@
+{
+  "name": "meok-eu-aia-art-9-rms-mcp",
+  "description": "MEOK EU AI Act Article 9 Risk Management System generator \u2014 4-step iteration (identify / estimate /",
+  "url": "https://proofof.ai/scorecard/meok-eu-aia-art-9-rms-mcp.html",
+  "version": "1.0.1",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "start_rms",
+      "name": "Start Rms",
+      "description": "start_rms via meok-eu-aia-art-9-rms-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "identify_risk",
+      "name": "Identify Risk",
+      "description": "identify_risk via meok-eu-aia-art-9-rms-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "map_mitigation",
+      "name": "Map Mitigation",
+      "description": "map_mitigation via meok-eu-aia-art-9-rms-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "log_post_market_observation",
+      "name": "Log Post Market Observation",
+      "description": "log_post_market_observation via meok-eu-aia-art-9-rms-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "iterate_rms",
+      "name": "Iterate Rms",
+      "description": "iterate_rms via meok-eu-aia-art-9-rms-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "validate_rms_completeness",
+      "name": "Validate Rms Completeness",
+      "description": "validate_rms_completeness via meok-eu-aia-art-9-rms-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "list_iteration_steps",
+      "name": "List Iteration Steps",
+      "description": "list_iteration_steps via meok-eu-aia-art-9-rms-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "sign_rms_chain",
+      "name": "Sign Rms Chain",
+      "description": "sign_rms_chain via meok-eu-aia-art-9-rms-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

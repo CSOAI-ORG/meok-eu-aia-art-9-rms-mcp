@@ -1,0 +1,26 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-eu-aia-art-9-rms-mcp",
+    "description": "MEOK EU AI Act Article 9 Risk Management System generator \u2014 4-step iteration (identify / estimate /",
+    "version": "1.0.1",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-eu-aia-art-9-rms-mcp"
+      }
+    ],
+    "capabilities": [
+      "start_rms",
+      "identify_risk",
+      "map_mitigation",
+      "log_post_market_observation",
+      "iterate_rms",
+      "validate_rms_completeness",
+      "list_iteration_steps",
+      "sign_rms_chain"
+    ]
+  }
+}
