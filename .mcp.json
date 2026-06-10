@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-eu-aia-art-9-rms-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-eu-aia-art-9-rms-mcp"
+      ]
+    }
+  }
+}
