@@ -123,3 +123,8 @@ Once configured, ask your assistant, for example:
 - "Use `start_rms` to …"
 - "Use `identify_risk` to …"
 - "Use `map_mitigation` to …"
+
+## See also
+
+MEOK compliance MCP fleet:
+[`nist-rmf-ai-mcp`](https://github.com/CSOAI-ORG/nist-rmf-ai-mcp), [`risk-assessment-ai-mcp`](https://github.com/CSOAI-ORG/risk-assessment-ai-mcp)

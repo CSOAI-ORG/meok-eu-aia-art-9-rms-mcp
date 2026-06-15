@@ -1,2 +1,0 @@
-[console_scripts]
-meok-eu-aia-art-9-rms-mcp = server:main
